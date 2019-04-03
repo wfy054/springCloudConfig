@@ -1,0 +1,9 @@
+spring:
+  application:
+    #必须与git上的配置文件名的应用名一致 git上的配置文件名格式 【应用名】-【环境名】
+    name: service-feign
+server:
+  port: 8086
+feign:
+  hystrix:
+    enabled: true
